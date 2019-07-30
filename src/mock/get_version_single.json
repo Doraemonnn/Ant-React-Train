@@ -1,0 +1,12 @@
+{
+	"code": 200,
+	"message": "操作成功",
+	"count": 2,
+	"list": [{
+		"version_current": "0.0.0.0",
+		"update_time": "2018-07-16 10:48:57"
+	}, {
+		"version_current": "0.0.0.0",
+		"update_time": "2018-07-16 10:48:57"
+	}]
+}

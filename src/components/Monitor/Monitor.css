@@ -1,0 +1,48 @@
+.monitor .search .media-text span {
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.monitor-card span {
+  margin-left: 10px;
+}
+
+.monitor-card .trainno {
+  margin: 10px 0;
+}
+
+.monitor-card .trainno img {
+  vertical-align: middle;
+  margin-top: -8px;
+}
+
+.monitor-card .trainno span {
+  color: #666;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.monitor-card .title {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.monitor-card .content {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+@media (max-width: 1600px) {
+  .echart {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1601px) {
+  .echart {
+    width: 100%;
+    height: 400px;
+  }
+}

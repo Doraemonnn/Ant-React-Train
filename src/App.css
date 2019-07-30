@@ -1,0 +1,118 @@
+/* 响应式 */
+
+@media (max-width: 768px) {
+  .media-text {
+    margin-top: 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .media-text {
+    margin-top: 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .media-text {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .media-text {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1600px) {
+  .media-text {
+    text-align: right;
+  }
+}
+
+/* 布局 */
+
+.ant-layout-content {
+  background: rgba(0, 0, 0, 0) !important;
+  padding: 0 !important;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+#components-layout-demo-custom-trigger span {
+  font-family: "微软雅黑";
+}
+
+/* 头像 */
+
+#components-layout-demo-custom-trigger .avatar {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+#components-layout-demo-custom-trigger .avatar .ant-avatar {
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+#components-layout-demo-custom-trigger .avatar span {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+/* 面包屑导航 */
+
+.ant-breadcrumb-link a {
+  font-size: 14px;
+}
+
+/* 菜单 */
+
+.ant-menu-item a,
+.ant-menu-submenu-title span {
+  font-size: 14px;
+}
+
+/* 表单 */
+
+.ant-form-explain {
+  padding-top: 5px;
+}
+
+/* 表格 */
+
+.ant-table-body tr,
+.ant-table-body td {
+  font-size: 14px;
+}
+
+/* 弹框 */
+
+.ant-modal-content span {
+  font-size: 14px;
+}
+
+/* 时间轴 */
+
+.ant-timeline-item-tail,
+.ant-timeline-item-head {
+  top: 2px;
+}

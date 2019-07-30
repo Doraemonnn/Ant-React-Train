@@ -1,0 +1,50 @@
+.loading {
+  height: 300px;
+  line-height: 300px;
+}
+
+.health-list .train-state {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.health-list p {
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.health-list .wrap {
+  text-align: center;
+}
+
+.health-list .wrap .circle {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  border: solid 2px #fff;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.health-list .wrap .circle.typeA {
+  border: solid 2px #52c41a;
+}
+
+.health-list .wrap .circle.typeB {
+  border: solid 2px #fabc16;
+}
+
+.health-list .wrap .circle.typeC {
+  border: solid 2px #ff8000;
+}
+
+.health-list .wrap .circle.typeD {
+  border: solid 2px #f5222d;
+}
+
+.health-list .wrap .circle img {
+  width: 29px;
+  height: 29px;
+  margin-top: 2px;
+}
